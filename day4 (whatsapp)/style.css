@@ -1,0 +1,92 @@
+  *{
+    box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background-color:#ECE5DD;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100%;
+      font-family: sans-serif;
+      margin-block-start: 20px;
+    }
+    .app{
+      display: flex;
+      margin-inline-start: 20px;
+      margin-block-start: 30px; 
+    }
+  .logo{
+    border: none;
+    mix-blend-mode: multiply;
+    background: none;
+    }
+  .logo span{
+    color: #25D366;
+    font-size: 46px;
+    font-weight: bold;
+  }
+.download{
+  background: #25D366;
+  width: 200px;
+  height: 50px;
+  border-radius: 40px;
+  margin-inline-start: 65%;
+  margin-block-start: 20px;
+  font-size: 26px;
+  float: inline-end;
+}
+.container{
+  background-color: white;
+  display: flex;
+  width: 1000px;
+  height: 500px;
+  border-radius: 40px;
+  margin-block-start: 75px;
+  border: 2px solid black;
+  margin-inline-start: 350px;
+  margin-inline-end: 100px;
+  padding: 80px;
+}
+.container .steps{
+  display: flexbox;
+  margin-block-start: -20px;
+  margin-inline-start: 10px;
+  color: #252C46;
+}
+.steps{
+  display: flexbox;
+  color: rgb(90, 86, 86);
+  font-size: 18px;
+}
+.steps h1,p{
+  text-align: left;
+  margin-right: 20px;
+}
+.steps ol{
+ margin-left: 22px;
+ padding-left: 10px;
+}
+img{
+  display: flex;
+  height: 270px;
+  width: 270px;
+  background-color: #F2F2F2;
+}
+a{
+  border-bottom: 2px solid #25D366;
+  color: rgb(90, 86, 86);
+  font-size: 18px;
+}
+.checkbox{
+  display: flex;
+  color: rgb(173, 166, 166);
+  font-size: 1em;
+  padding-bottom: 15px;
+}
+.ri-check-line{
+  background-color: #25d366;
+  color: #ffffff;
+  border-radius: 3px;
+}
