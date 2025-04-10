@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f2f5;
+    font-family: sans-serif;
+    min-height: 80vh;
+}
+.container{
+    background-color: #fff;
+    margin-inline: 50px;
+    margin-block: 100px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 20px 10px rgba(79, 77, 77, 0.2);
+}
+span{
+    font-size: 19px;
+    color: gray;
+}
+.toggle{
+    height: 30px;
+    width: 60px;
+    border-radius: 40px;
+    border: 1px solid gray;
+    background-color: lightgray;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.switch{
+    height: 25px;
+    width: 25px;
+    margin-top: 2px;
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    left: 2px;
+}
+.toggle-checkbox{
+    display: none;
+}
+.toggle-container{
+    display: flex; 
+    justify-content: center;
+    margin-block-end: -130px;
+    margin-block-start: 10px;
+}
+.plan{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px 10px;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+h1{
+    text-align: center;
+    color:#212529;
+    padding-top: 30px;
+    line-height: 50px;
+}
+
+h2{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+ .plan-1 span{
+    line-height: 150px;
+    color: blue;
+    font-size: 50px;
+    margin-bottom: 400px;
+}
+.plan-1{
+ border: 1px solid gray;
+ padding: 60px 100px;
+ border-radius: 5px;
+
+}
+.plan-1:hover{
+    background-color: rgba(0,0,0, 0.1);
+    border: 3px solid blue;
+} 
+.plan-2:hover{
+    background-color: rgba(0,0,0, 0.1);
+    border: 2px solid purple;
+    z-index: 2;
+} 
+.plan-3:hover{
+    background-color: rgba(0,0,0, 0.1);
+    border: 3px solid green;
+} 
+p{
+    line-height: 30px;
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+}
+.plan-1 button{
+    background-color: blue;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+}
+h3{
+    color: #6f42c1;
+    font-size: 30px;
+    text-align: center;
+}
+ .plan-2 span{
+    line-height: 150px;
+    color: #6f42c1;
+    font-size: 50px;
+    margin-bottom: 400px;
+}
+.plan-2{
+ border: 1px solid gray;
+ padding: 60px 100px;
+ border-radius: 5px;
+
+}
+.plan-2 button{
+    background-color: #6f42c1;;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+}
+h4{
+    color: #28a745;
+    font-size: 30px;
+    text-align: center;
+}
+ .plan-3 span{
+    line-height: 150px;
+    color:  #28a745;
+    font-size: 50px;
+    margin-bottom: 400px;
+}
+.plan-3{
+ border: 1px solid gray;
+ padding: 60px 100px;
+ border-radius: 5px;
+
+}
+.plan-3 button{
+    background-color:  #28a745;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+}
